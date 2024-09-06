@@ -1,0 +1,10 @@
+
+#include <stdio.h>
+int main() {
+printf("INDIA\n");
+printf("ISRAEL\n");
+printf("IRAN\n");
+printf("IRELAND\n");
+printf("IRAQ\n");
+return 0;
+}

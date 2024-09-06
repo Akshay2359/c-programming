@@ -1,0 +1,17 @@
+c program input number between 6 to 10: 
+	this number is between 6 to 10  
+	input is not valid 
+
+ #include <stdio.h>
+    int main() {
+    int a;
+    printf("enter any number ");
+    scanf("%d",&a);
+    if(a>5 && a<11){
+        printf("number is between 6 to 10");
+    }
+    else{
+        printf(" input is not valid");
+    }
+    return 0;
+    }

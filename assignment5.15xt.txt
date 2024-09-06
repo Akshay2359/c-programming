@@ -1,0 +1,17 @@
+ c program input any number 
+	1 ya 2 ya 3 ya 34 ya 89 
+		valid 
+	input is not valid 
+#include <stdio.h>
+int main() {
+int a;
+printf("enter any number ");
+scanf("%d",&a);
+if(a ==1 || a ==2|| a ==3 || a ==34|| a ==89){
+    printf("valid");
+}
+else{
+    printf("not valid");
+}
+return 0;
+}

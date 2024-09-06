@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+printf("jaipur\n");
+printf("newai\n");
+printf("new delhi\n");
+printf("gorakhpur\n");
+printf("agra\n");
+return 0;
+}

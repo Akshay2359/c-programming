@@ -1,0 +1,15 @@
+c program input any single character :
+	b :ball
+#include <stdio.h>
+int main() {
+char b;
+printf("enter any alphabet ");
+scanf("%c",&b);
+if(b=='b'){
+printf("ball");
+    }
+ else{
+printf("input not matched");
+    }
+return 0;
+}

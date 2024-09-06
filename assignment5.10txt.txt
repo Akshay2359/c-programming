@@ -1,0 +1,22 @@
+a :
+		two number input 
+		addition 
+	input is not match 
+#include <stdio.h>
+int main() {
+char a;
+printf("enter any alphabet ");
+scanf("%c",&a);
+if(a =='a'){
+
+int num1, num2 , num3;
+printf("enter num1 num2 ");
+scanf("%d %d", &num1, &num2);
+num3 = num1 +num2;
+printf("%d",num3);
+}
+else{
+printf("input does not match");
+    }
+return 0;
+}

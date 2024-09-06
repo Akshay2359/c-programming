@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+printf("pao bhaji\n");
+printf("pizza\n");
+printf("dosa\n");
+printf("idli\n");
+printf("manchurian\n");
+return 0;
+}

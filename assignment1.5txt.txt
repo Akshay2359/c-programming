@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+printf("manish\n");
+printf("damodar\n");
+printf("nikhil\n");
+printf("kamlesh\n");
+printf("deepak\n");
+return 0;
+}

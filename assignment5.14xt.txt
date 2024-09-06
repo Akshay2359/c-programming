@@ -1,0 +1,26 @@
+c program input single character :
+	w :
+		two number input 
+		swap with third variable 
+	input is not match 
+
+#include <stdio.h>
+int main() {
+char a;
+printf("enter any character ");
+scanf("%c",&a);
+if (a == 'w'){
+    int num1, num2,num3;
+ printf("enter two numbers :\n");
+scanf("%d %d", &num1, &num2);
+num3 = num1;
+num1 = num2;
+num2 = num3;
+printf("swap value of num1 is : %d \n" , num1);
+printf("swap value of num2 is : %d \n" , num2);
+}
+else{
+    printf("input does not match");
+}
+return 0;
+}
