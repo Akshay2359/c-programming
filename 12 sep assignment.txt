@@ -1,0 +1,181 @@
+1-------->10 print for loop dry run 
+
+
+#include <stdio.h>
+
+int main() {
+   int i;
+   for(i=1;i<11;i++){
+       printf("%d \n", i);
+   }
+
+    return 0;
+}
+
+10---->1 for loop 
+
+#include <stdio.h>
+int main() {
+   int i;
+   for(i=10;i>=1;i--){
+       printf("%d \n", i);
+   }
+ return 0;
+}
+
+34--->89 value print for loop 
+
+#include <stdio.h>
+int main() {
+   int i;
+   for(i=34;i<=89;i++){
+       printf("%d \n", i);
+   }
+ return 0;
+}
+
+
+89---->34 value print for loop
+
+#include <stdio.h>
+int main() {
+   int i;
+   for(i=89;i>=34;i--){
+       printf("%d \n", i);
+   }
+ return 0;
+}
+
+1----->10 number sum 
+#include <stdio.h>
+int main() {
+    int i,sum=0;
+   for(i=1;i<11;i++){
+       sum=sum+i;
+       }
+   printf("%d ", sum);
+ return 0;
+}
+
+98--->45 number sum 
+
+#include <stdio.h>
+int main() {
+    int i,sum=0;
+   for(i=98;i>=45;i--){
+       sum=sum+i;
+       }
+   printf("%d ", sum);
+ return 0;
+}
+
+1--->10 print number even 
+
+#include <stdio.h>
+int main() {
+    int i;
+   for(i=1;i<11;i++){
+      if(i%2==0){
+          printf("%d ",i);
+      }
+       }
+ return 0;
+}
+
+10---->1 for loop even
+
+#include <stdio.h>
+int main() {
+    int i;
+   for(i=10;i>=1;i--){
+      if(i%2==0){
+          printf("%d ",i);
+      }
+       }
+ return 0;
+}
+
+34--->89 value print for loop even number sum 
+
+#include <stdio.h>
+int main() {
+    int i,sum=0;
+   for(i=34;i<=89;i++){
+      if(i%2==0){
+       sum=sum+i;  
+      }
+      }
+       printf("%d ",sum);
+ return 0;
+}
+
+89---->34 value print for loop odd number sum 
+
+#include <stdio.h>
+int main() {
+    int i,sum=0;
+   for(i=89;i>=34;i--){
+      if(i%2==1){
+       sum=sum+i;  
+      }
+       }
+       printf("%d ",sum);
+ return 0;
+}
+
+table print through for loop 
+
+a :
+	1--->10 number sum through for loop
+
+b :
+	10--->1 odd number sum 
+
+c :
+	67--->45 even number sum 
+
+d :
+	9-->5 number sum 
+
+#include <stdio.h>
+int main() {
+    int i,sum=0;
+    char n;
+    printf("enter any character ");
+    scanf("%c", &n);
+    if(n=='a'){
+  for(i=1;i<11;i++){
+       sum=sum+i;
+       }
+     printf("%d",sum);
+    }
+    if(n=='b'){
+        int i;
+   for(i=10;i>=1;i--){
+      if(i%2==1){
+          printf("%d ",i);
+      }
+       }
+    }
+    if(n=='c'){
+         int i,sum=0;
+   for(i=67;i>=45;i--){
+      if(i%2==0){
+       sum=sum+i;  
+      }
+   }
+     printf("%d ",sum);
+      }
+      if(n=='d'){
+          for(i=9;i>=5;i--){
+              sum=sum+i;
+               }
+               printf("%d", sum);
+      }
+ return 0;
+}
+
+
+
+
+

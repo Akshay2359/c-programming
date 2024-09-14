@@ -1,0 +1,167 @@
+sum of digit
+#include <stdio.h>
+
+int main() {
+   int number=1234;
+    int rem,sum=0;
+    while(number>0){
+        rem=number%10;
+        sum=sum+rem;
+        number=number/10;
+    }
+    printf("%d", sum ) ;
+ return 0;
+}
+
+reverse number
+#include <stdio.h>
+
+int main() {
+   int number=1234;
+    int rem,sum=0;
+    while(number>0){
+        rem=number%10;
+        sum=sum*10+rem;
+        number=number/10;
+    }
+    printf("%d", sum ) ;
+ return 0;
+}
+
+pallindrome number
+#include <stdio.h>
+
+int main() {
+   int number=1234321;
+    int rem,sum=0;
+    while(number>0){
+        rem=number%10;
+        sum=sum*10+rem;
+        number=number/10;
+    }
+    printf("%d", sum ) ;
+ return 0;
+}
+
+armtrong number
+
+#include <stdio.h>
+
+int main() {
+   int number=370;
+    int rem,sum=0;
+    while(number>0){
+        rem=number%10;
+        sum=sum+rem*rem*rem;
+        number=number/10;
+    }
+    printf("%d", sum ) ;
+ return 0;
+}
+
+neon number
+
+#include <stdio.h>
+
+int main() {
+   int number;
+   printf("enter number ");
+   scanf("%d", &number);
+    int square,rem,sum=0;
+    square=number*number;
+     while(square>0){
+        rem=square%10;
+        sum=sum+rem;
+       square=square/10;
+    }
+    
+    if(number==sum){
+        printf("neon number");
+    }
+    else{
+    printf("not a neon number" ) ;
+    }
+ return 0;
+}
+
+table of 2
+#include <stdio.h>
+
+int main() {
+   int number=2,i=1;
+  
+   while(i<=10){
+
+      
+        printf("%d \n",number*i);
+         i++;
+   }
+  
+ return 0;
+}
+
+reverse table of 2
+#include <stdio.h>
+
+int main() {
+   int number=2,i=10;
+  
+   while(i>=1){
+
+      
+        printf("%d \n",number*i);
+         i--;
+   }
+  
+ return 0;
+}
+differnt output with different inputs
+#include <stdio.h>
+
+int main() {
+  char a;
+  printf("enter any character = ");
+  scanf("%c", &a);
+  if(a=='b'){
+       int number=370;
+    int rem,sum=0;
+    while(number>0){
+        rem=number%10;
+        sum=sum+rem*rem*rem;
+        number=number/10;
+    }
+    printf("%d", sum ) ;
+  }
+  if(a=='p'){
+      int number=1234321;
+    int rem,sum=0;
+    while(number>0){
+        rem=number%10;
+        sum=sum*10+rem;
+        number=number/10;
+    }
+    printf("%d", sum ) ;
+  }
+  if(a=='r'){
+      int number=1234;
+    int rem,sum=0;
+    while(number>0){
+        rem=number%10;
+        sum=sum*10+rem;
+        number=number/10;
+    }
+    printf("%d", sum ) ;
+  }
+  if(a=='c'){
+      int count=0;
+      int n = 4333;
+      while(n>0){
+          n=n/10;
+          count++;
+      }
+      printf("%d",count);
+      }
+ 
+  
+ return 0;
+}
